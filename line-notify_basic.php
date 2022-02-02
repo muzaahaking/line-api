@@ -20,10 +20,6 @@ $response = curl_exec($ch);
 
 curl_close($ch);
 
-// var_dump($response);
-
 $result = json_decode($response,TRUE);
 
-echo $result;
-
-?>
+echo var_dump($result);
