@@ -1,3 +1,3 @@
 <?php
 
-echo "LINE Notify"
+echo "LINE Notify";
